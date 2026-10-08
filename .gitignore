@@ -1,0 +1,55 @@
+# ===== Sistema / IDEs =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+
+# ===== Python / Dados =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+data/raw/
+*.parquet
+*.sqlite
+*.db
+
+# ===== Java / Spring Boot =====
+target/
+build/
+out/
+bin/
+*.class
+*.jar
+*.war
+.gradle/
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# ===== Web / Node =====
+node_modules/
+dist/
+.next/
+.cache/
+coverage/
+npm-debug.log*
+yarn-error.log*
+
+# ===== Cloud / Segredos =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+.aws/
+.azure/
+*.tfstate
+*.tfstate.*
+.terraform/
